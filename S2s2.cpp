@@ -8,7 +8,8 @@ retorna la opción elegida por el usuario
 
 */
 int menu();
-
+/*funcion que calcula factorial de un número*/
+int factorial(int);
 
 int main(){
 
@@ -50,6 +51,12 @@ int main(){
  return 0;
 }
 
+int factorial(int i){
+
+  return 0;
+}
+
+//función menu
 int menu(){
   int opcion; 
   bool valido=false;
