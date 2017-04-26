@@ -5,6 +5,7 @@ using namespace std;
 /*La función muestra el menú y valida entrada 
 -que sea un valor correcto
 retorna la opción elegida por el usuario
+
 */
 int menu();
 
