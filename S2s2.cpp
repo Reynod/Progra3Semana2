@@ -37,7 +37,11 @@ int main(){
        break;
     }
     case 3:{
-       
+      int num;
+      cout<<"Escriba un número: ";
+      cin>>num;
+      cout<<"El factorial de "<<num<<" es:"
+          <<factorial(num)<<endl; 
        break;
     }
     case 4:
@@ -52,8 +56,13 @@ int main(){
 }
 
 int factorial(int i){
-
-  return 0;
+  if( i<0 )//validar input
+    return -1;
+  else if( i==0 ){ // fondo de la recursión
+    return 1;
+  }else{
+   return i * factorial(i-1); 
+  } 
 }
 
 //función menu
